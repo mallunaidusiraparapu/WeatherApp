@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #00bcd4, #8e24aa);
+    background-image: url('weather.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .weather-container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .city-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+  
